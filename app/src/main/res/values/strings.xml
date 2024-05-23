@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarea2_Joan</string>
+    <string name="hint_entrada_angulo">Ingresa el ángulo (en grados)</string>
+    <string name="hint_entrada_lado1">Ingresa el lado 1 del triángulo</string>
+    <string name="hint_entrada_lado2">Ingresa el lado 2 del triángulo</string>
+    <string name="boton_calcular">Calcular</string>
+</resources>

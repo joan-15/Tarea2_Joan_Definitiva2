@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadosActivity">
+
+    <TextView
+        android:id="@+id/resultado_lado3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lado 3 del triángulo: "
+        android:layout_margin="16dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/resultado_sin_angulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sin del ángulo: "
+        android:layout_below="@id/resultado_lado3"
+        android:layout_margin="16dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/resultado_cos_angulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cos del ángulo: "
+        android:layout_below="@id/resultado_sin_angulo"
+        android:layout_margin="16dp"
+        android:textSize="18sp"/>
+</RelativeLayout>
